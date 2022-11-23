@@ -26,7 +26,7 @@
             <il class="nav-item">
                 <a href="{{ route('photo.index') }}" class="nav-link active">最新</a>
             </il>
-            <il class="nav-item">
+            <!-- <il class="nav-item">
                 <a href="{{ url('photo.rokunen') }}" class="nav-link">6年生</a>
             </il>
             <il class="nav-item">
@@ -46,7 +46,7 @@
             </il>
             <il class="nav-item">
                 <a href="{{ url('photo.nenchou') }}" class="nav-link">未就学</a>
-            </il>
+            </il> -->
         </ul>
 </div>
 
