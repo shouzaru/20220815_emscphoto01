@@ -41,7 +41,7 @@
 @else
 <div class="container">
     <div class="row text-center">
-        <h1>この権限では許可されていません。ログインしてください。</h1>
+        <h1>この権限では許可されていません。</h1>
     </div>
 </div>
 @endcan
