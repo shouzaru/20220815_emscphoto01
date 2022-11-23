@@ -81,7 +81,7 @@
         </ul>
 </div>
 
-@canany(['isAdmin','isReadandTag']) <!-- roleがAdminとReadandTagのユーザーは以下を表示する -->
+
 
 <div class="container">
     <div class="row text-center">
@@ -112,12 +112,6 @@
     </div>
 </div>
 
-@else
-<div class="container">
-    <div class="row text-center">
-        <h1>この権限では許可されていません。ログインしてください。</h1>
-    </div>
-</div>
-@endcan
+
 @endsection
 

@@ -3,7 +3,7 @@
 <!-- Lazysizesを実装する -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>
 
-@canany(['isAdmin','isReadandTag','isReadOnly']) <!-- いずれかの権限でログインした人だけに許可 -->
+
 <!-- ナビゲーションメニュー -->
 <div class="container mt-2 mb-2">
         <ul class="nav nav-tabs">
@@ -93,11 +93,5 @@
     </div>
 </div>
 
-@else
-<div class="container">
-    <div class="row text-center">
-        <h1>ログインしてください。</h1>
-    </div>
-</div>
-@endcan
+
 @endsection

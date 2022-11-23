@@ -28,7 +28,7 @@
             <img src="{{asset('storage/uploads')}}{{'/'}}{{ $photo->path }}"  class=" img-fluid"/> <!-- asset()関数で -->
             <p>{{ $photo->date }}</p>
 
-@canany(['isAdmin','isReadandTag']) <!-- roleがAdminとReadandTagのユーザーは以下を表示する -->
+
             <form action="{{ route('photo.update',$photo->id)}}" method="POST">  <!-- targetの指定でボタン押しても画面遷移しない -->
                     @csrf
                     @method('PUT')
@@ -45,7 +45,7 @@
         </div>
     </div>
 </div>
-@endcan
+
 
 <div class="container text-end">
     <div class="row">

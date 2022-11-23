@@ -29,7 +29,7 @@
 
 
 
-@canany(['isAdmin','isReadandTag','isReadOnly']) <!-- いずれかの権限でログインした人だけに許可 -->
+
 <!-- チーム全体写真（学年別） -->
 <div class="container mt-2 mb-2">
     <h3>チーム全体写真（学年別）</h3>
@@ -101,12 +101,5 @@
     </div>
 </div>
 
-@else
-<div class="container">
-    <div class="row text-center">
-        <h1>この権限では許可されていません。ログインしてください。</h1>
-    </div>
-</div>
-@endcan
 
 @endsection

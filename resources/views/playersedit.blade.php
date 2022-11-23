@@ -18,7 +18,7 @@
         </ul>
 </div>
 
-@can('isAdmin') <!-- Adminでログインした人だけに許可 -->
+
 
     <!-- バリデーションエラーの表示に使用-->
         <!-- resources/views/common/errors.blade.php -->
@@ -78,11 +78,5 @@
     </div>
 </div>
 
-@else
-<div class="container">
-    <div class="row text-center">
-        <h1>この権限では許可されていません。ログインしてください。</h1>
-    </div>
-</div>
-@endcan
+
 @endsection

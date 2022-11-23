@@ -19,7 +19,7 @@
         </ul>
 </div>
 
-@can('isAdmin') <!-- roleがAdminのユーザーのみ以下を表示する -->
+
 
 
     <!-- バリデーションエラーの表示に使用-->
@@ -142,13 +142,7 @@
 @endif
 
 
-@else
-<div class="container">
-    <div class="row text-center">
-        <h1>この権限では許可されていません。ログインしてください。</h1>
-    </div>
-</div>
-@endcan
+
 
  @endsection
 
